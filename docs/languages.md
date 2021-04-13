@@ -123,7 +123,7 @@ export type Lang =
   | 'tcl'
   | 'toml'
   | 'tsx'
-  | 'turtle'
+  | 'turtle' | 'ttl'
   | 'twig'
   | 'typescript' | 'ts'
   | 'vb' | 'cmd'

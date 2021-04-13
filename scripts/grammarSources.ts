@@ -172,6 +172,7 @@ export const languageAliases = {
   shaderlab: ['shader'],
   shellscript: ['shell', 'bash', 'sh', 'zsh'],
   stylus: ['styl'],
+  turtle: ['ttl'],
   typescript: ['ts'],
   vb: ['cmd'],
   wenyan: ['文言']

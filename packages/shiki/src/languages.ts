@@ -103,7 +103,7 @@ export type Lang =
   | 'tcl'
   | 'toml'
   | 'tsx'
-  | 'turtle'
+  | 'turtle' | 'ttl'
   | 'twig'
   | 'typescript' | 'ts'
   | 'vb' | 'cmd'
@@ -660,7 +660,8 @@ export const languages: ILanguageRegistration[] = [
     id: 'turtle',
     scopeName: 'source.turtle',
     path: 'turtle.tmLanguage.json',
-    samplePath: 'turtle.sample'
+    samplePath: 'turtle.sample',
+    aliases: ['ttl']
   },
   {
     id: 'twig',
